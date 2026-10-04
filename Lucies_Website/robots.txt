@@ -1,7 +1,0 @@
-# Lucie's Handmade Creations
-# Everything here is public, so crawlers are welcome.
-User-agent: *
-Allow: /
-
-# Once the real domain is known, add a sitemap line here, e.g.
-# Sitemap: https://your-domain.co.za/sitemap.xml
