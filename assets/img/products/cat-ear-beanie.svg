@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" class="p-art" role="img" aria-label="{{LABEL}}">
+  <defs>
+    <radialGradient id="bg-cat-ear-beanie" cx="50%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#fdf8f6"/>
+      <stop offset="0.62" stop-color="#f9ece9"/>
+      <stop offset="1" stop-color="#f3dcdb"/>
+    </radialGradient>
+    <radialGradient id="floor-cat-ear-beanie" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2c1f1b" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#2c1f1b" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#2c1f1b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hi-cat-ear-beanie" gradientUnits="objectBoundingBox"
+                    x1="0.10" y1="0.02" x2="0.82" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.50"/>
+      <stop offset="0.38" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.72" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sh-cat-ear-beanie" gradientUnits="objectBoundingBox"
+                    x1="0.18" y1="0.05" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#2c1f1b" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#2c1f1b" stop-opacity="0.07"/>
+      <stop offset="0.80" stop-color="#2c1f1b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2c1f1b" stop-opacity="0.36"/>
+    </linearGradient>
+    <pattern id="knit-cat-ear-beanie" width="17" height="24" patternUnits="userSpaceOnUse">
+      <path d="M1.5 3 L8.5 11 L15.5 3" fill="none" stroke="#2c1f1b" stroke-opacity="0.17" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-7 15 L0 23 L7 15" fill="none" stroke="#2c1f1b" stroke-opacity="0.17" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M10 15 L17 23 L24 15" fill="none" stroke="#2c1f1b" stroke-opacity="0.17" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1.5 3 L8.5 11 L15.5 3" fill="none" stroke="#ffffff" stroke-opacity="0.26" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,1.6)"/>
+      <path d="M-7 15 L0 23 L7 15" fill="none" stroke="#ffffff" stroke-opacity="0.26" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,1.6)"/>
+      <path d="M10 15 L17 23 L24 15" fill="none" stroke="#ffffff" stroke-opacity="0.26" stroke-width="0.95" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,1.6)"/>
+    </pattern>
+  </defs>
+  <defs>
+    <pattern id="rib-cat-ear-beanie" width="240" height="68" patternUnits="userSpaceOnUse" x="80" y="312">
+      <rect x="83.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="86.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="103.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="106.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="123.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="126.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="143.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="146.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="163.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="166.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="183.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="186.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="203.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="206.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="223.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="226.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="243.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="246.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="263.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="266.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="283.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="286.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+      <rect x="303.20" y="312" width="13.60" height="68" rx="6.80" fill="#2c1f1b" fill-opacity="0.16"/>
+      <rect x="306.60" y="317" width="4.80" height="58" rx="2.40" fill="#ffffff" fill-opacity="0.30"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg-cat-ear-beanie)"/>
+  <ellipse cx="200.0" cy="396" rx="128" ry="16" fill="url(#floor-cat-ear-beanie)"/>
+  <g>
+    <path d="M96 330 C96 274 100 240 106 222 C102 196 118 156 142 150 C166 156 178 196 178 222 C188 214 212 214 222 222 C222 196 238 156 258 150 C282 156 298 196 294 222 C300 240 304 274 304 330 Z" class="yarn" style="fill:#f2e7db"/>
+    <path d="M96 330 C96 274 100 240 106 222 C102 196 118 156 142 150 C166 156 178 196 178 222 C188 214 212 214 222 222 C222 196 238 156 258 150 C282 156 298 196 294 222 C300 240 304 274 304 330 Z" fill="url(#knit-cat-ear-beanie)" opacity="1.0"/>
+    <path d="M96 330 C96 274 100 240 106 222 C102 196 118 156 142 150 C166 156 178 196 178 222 C188 214 212 214 222 222 C222 196 238 156 258 150 C282 156 298 196 294 222 C300 240 304 274 304 330 Z" fill="url(#hi-cat-ear-beanie)"/>
+    <path d="M96 330 C96 274 100 240 106 222 C102 196 118 156 142 150 C166 156 178 196 178 222 C188 214 212 214 222 222 C222 196 238 156 258 150 C282 156 298 196 294 222 C300 240 304 274 304 330 Z" fill="url(#sh-cat-ear-beanie)"/>
+    <path d="M96 330 C96 274 100 240 106 222 C102 196 118 156 142 150 C166 156 178 196 178 222 C188 214 212 214 222 222 C222 196 238 156 258 150 C282 156 298 196 294 222 C300 240 304 274 304 330 Z" fill="none" stroke="#2c1f1b" stroke-opacity="0.22" stroke-width="1.4"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" class="yarn" style="fill:#f2e7db"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" fill="url(#rib-cat-ear-beanie)"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" fill="url(#hi-cat-ear-beanie)"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" fill="url(#sh-cat-ear-beanie)"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" fill="url(#rib-cat-ear-beanie)" opacity="0.6"/>
+    <path d="M88 320 H312 C317 320 320 325 320 332 V366 C320 375 314 380 305 380 H95 C86 380 80 375 80 366 V332 C80 325 83 320 88 320 Z" fill="none" stroke="#2c1f1b" stroke-opacity="0.22" stroke-width="1.4"/>
+  </g>
+</svg>
