@@ -1,0 +1,112 @@
+/* ==========================================================================
+   Design tokens — Lucie's Handmade Creations
+   --------------------------------------------------------------------------
+   The palette is sampled directly from the supplied logo, so the site and the
+   brand mark sit on the same paper. Change a value here and it updates
+   everywhere: do not hard-code colours in components.
+   ========================================================================== */
+
+:root {
+  /* --- Colour: paper and panels -------------------------------------- */
+  --cream: #faf2ef; /* page base — the exact background of the logo */
+  --cream-deep: #f5e9e4; /* alternating band */
+  --blush: #f8e5e4; /* soft blush panel — also the illustration backdrop */
+
+  /* --- Colour: ink ---------------------------------------------------- */
+  /* Text colours are all checked against every paper tone below (cream,
+     cream-deep and blush) and clear WCAG AA for body text — deepest is 4.79:1. */
+  --cocoa: #4a3630; /* headings and body text — 10.2:1 */
+  --cocoa-soft: #6b5751; /* secondary text — 5.6:1 */
+  --cocoa-faint: #74605a; /* captions and meta — 4.9:1 */
+
+  /* --- Colour: brand accents ------------------------------------------ */
+  /* Slightly deeper than the logo heart so the accent stays readable on the
+     lightest blush panel, not only on cream. */
+  --berry: #a04a58; /* the logo heart — primary action colour — 4.8:1 */
+  --berry-dark: #8c3f4d; /* hover / active */
+  --berry-soft: #c9808c; /* tints, hovers on light panels */
+  --rose-ink: #a8606e; /* the logo line art */
+  --rose: #c9a2a6; /* muted dusty rose for borders and detail */
+  --line: #e6d2cc; /* hairline rules */
+  --line-soft: #efe0db;
+
+  /* --- Colour: feedback ------------------------------------------------ */
+  --clay: #9a5a26; /* attention / pending information — 4.9:1 */
+
+  /* --- Typography ------------------------------------------------------ */
+  --font-display: "Fraunces", "Hoefler Text", Georgia, "Times New Roman", serif;
+  --font-body: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Fluid type scale. Every size is clamped so nothing overflows a small phone. */
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 1rem;
+  --text-md: 1.0625rem;
+  --text-lg: clamp(1.125rem, 1.05rem + 0.35vw, 1.3rem);
+  --text-xl: clamp(1.35rem, 1.15rem + 0.9vw, 1.75rem);
+  --text-2xl: clamp(1.6rem, 1.25rem + 1.7vw, 2.35rem);
+  --text-3xl: clamp(1.95rem, 1.35rem + 2.8vw, 3.1rem);
+  --text-hero: clamp(2.4rem, 1.5rem + 4.2vw, 4.15rem);
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-body: 1.62;
+  --leading-loose: 1.75;
+
+  --tracking-label: 0.18em; /* echoes "HANDMADE CREATIONS" on the logo */
+  --tracking-wide: 0.08em;
+
+  /* --- Space ------------------------------------------------------------ */
+  --sp-2xs: 0.25rem;
+  --sp-xs: 0.5rem;
+  --sp-sm: 0.75rem;
+  --sp-md: 1rem;
+  --sp-lg: 1.5rem;
+  --sp-xl: 2rem;
+  --sp-2xl: 3rem;
+  --sp-3xl: clamp(2.5rem, 2rem + 3vw, 4rem);
+  --sp-section: clamp(3.5rem, 2.2rem + 6vw, 6.5rem);
+  --section-gap: clamp(3rem, 2rem + 5vw, 5.5rem);
+
+  /* --- Structure -------------------------------------------------------- */
+  --wrap: 74rem; /* 1184px content width */
+  --gutter: clamp(1.15rem, 4vw, 3rem);
+  --header-h: 4.25rem;
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-pill: 999px;
+
+  /* The signature shape: an arch, echoing a round ruffle hat in a portrait frame. */
+  --arch: 50% 50% var(--radius-sm) var(--radius-sm) / 34% 34% var(--radius-sm)
+    var(--radius-sm);
+
+  /* --- Depth ------------------------------------------------------------ */
+  /* Deliberately restrained: handmade goods should not look like glass. */
+  --shadow-soft: 0 1px 2px rgba(74, 54, 48, 0.04),
+    0 8px 24px -12px rgba(74, 54, 48, 0.16);
+  --shadow-lift: 0 2px 4px rgba(74, 54, 48, 0.05),
+    0 18px 36px -18px rgba(74, 54, 48, 0.28);
+  --shadow-drawer: -18px 0 48px -24px rgba(74, 54, 48, 0.35);
+
+  --ring: 0 0 0 3px rgba(169, 80, 95, 0.34);
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 420ms;
+
+  --z-header: 40;
+  --z-backdrop: 60;
+  --z-drawer: 70;
+  --z-toast: 90;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 1ms;
+    --dur: 1ms;
+    --dur-slow: 1ms;
+  }
+}
